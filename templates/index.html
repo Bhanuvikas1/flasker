@@ -1,0 +1,16 @@
+<H1> Hello World </H1>
+
+<p> This is my first web page using flask</p>
+
+<p> My name is {{first_name }} </p>
+
+<p> {{stuff | safe}} </p>
+
+<h2>Teams : </h2>
+
+{% for team in icc_teams %}
+	<li>
+		{{team}}
+	</li>
+{% endfor %}
+
